@@ -1,0 +1,158 @@
+
+$VeryDarkBlue: hsl(243, 87%, 12%);
+$DesaturatedBlue: hsl(238, 22%, 44%);
+$BrightBlue: hsl(224, 93%, 58%);
+$ModerateCyan: hsl(170, 45%, 43%);
+$LightGrayishBlue: hsl(240, 75%, 98%);
+$LightGray: hsl(0, 0%, 75%);
+
+
+#section3 {
+    padding: 1em 3em;
+    background-color: $DesaturatedBlue;
+    color: #fff;
+    text-align: center;
+
+    .section3_content {
+        h2 {
+            padding: 1em 0;
+        }
+    
+        p {
+            padding: 1em 0;
+        }
+    } 
+
+    #form {
+
+        input {
+            margin: 10px 5px;
+            padding: 10px 20px 10px 10px;
+            border-radius: 3px;
+            width: 70vw;
+            border: none;
+        }
+        input::placeholder {
+            color: $LightGray;
+        }
+
+        .btn-foot {
+            margin: 5px;
+            padding: 10px 20px;
+            color: $LightGrayishBlue;
+            background-color: $BrightBlue;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 70vw;
+        }
+        .btn-foot:hover {
+            background-color: hsla(224, 93%, 58%, 0.705);
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #section3 {
+        padding: 2em 1em;
+        background-color: $DesaturatedBlue;
+        color: #fff;
+        text-align: start;
+        display: flex;
+        align-items: center;
+
+        .section3_content {
+            margin-right: 10px;
+
+            h2 {
+                padding: 1em 0;
+            }
+        
+            p {
+                padding: 1em 0;
+            }
+        }
+    
+        #form {
+    
+            input {
+                margin: 10px 5px;
+                padding: 10px 20px 10px 10px;
+                border-radius: 3px;
+                width: 40vw;
+                border: none;
+            }
+            input::placeholder {
+                color: $LightGray;
+            }
+    
+            .btn-foot {
+                margin: 5px;
+                padding: 10px 20px;
+                color: $LightGrayishBlue;
+                background-color: $BrightBlue;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                width: 20vw;
+            }
+            .btn-foot:hover {
+                background-color: hsla(224, 93%, 58%, 0.705);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    #section3 {
+        padding: 2em 4em;
+        background-color: $DesaturatedBlue;
+        color: #fff;
+        text-align: start;
+        display: flex;
+        align-items: center;
+        gap: 200px;
+
+        .section3_content {
+            margin-right: 0px;
+
+            h2 {
+                padding: 1em 0;
+            }
+        
+            p {
+                padding: 1em 0;
+            }
+        }
+    
+        #form {
+    
+            input {
+                margin: 10px 5px;
+                padding: 10px 20px 10px 10px;
+                border-radius: 3px;
+                width: 40vw;
+                border: none;
+            }
+            input::placeholder {
+                color: $LightGray;
+            }
+    
+            .btn-foot {
+                margin: 5px;
+                padding: 10px 20px;
+                color: $LightGrayishBlue;
+                background-color: $BrightBlue;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                width: 15vw;
+            }
+            .btn-foot:hover {
+                background-color: hsla(224, 93%, 58%, 0.705);
+            }
+        }
+    }
+}
+
+

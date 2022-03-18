@@ -1,0 +1,298 @@
+
+$VeryDarkBlue: hsl(243, 87%, 12%);
+$DesaturatedBlue: hsl(238, 22%, 44%);
+$BrightBlue: hsl(224, 93%, 58%);
+$ModerateCyan: hsl(170, 45%, 43%);
+$LightGrayishBlue: hsl(240, 75%, 98%);
+$LightGray: hsl(0, 0%, 75%);
+
+.mobile-curve {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top: 40px;
+}
+.desktop-curve {
+    display: none;
+}
+#section2 {
+    margin: 2em 0;
+    padding: 1em;
+    background-color: $LightGrayishBlue;
+
+    .illustration2 {
+        width: 100%;
+    }
+
+    .section2_content {
+        text-align: center;
+
+        h2 {
+            padding: 1em 0;
+            color: $VeryDarkBlue;
+            font-size: 20px;
+        }
+
+        p {
+            text-align: start;
+            color: $VeryDarkBlue;
+            padding-bottom: 20px;
+        }
+
+        a {
+            padding: 10px 0;
+            text-decoration: none;
+            color: $ModerateCyan;
+            border-bottom: 1px solid $ModerateCyan;
+
+            img {
+                position: relative;
+                top: 4px;
+            }
+        }
+    }
+
+    .profile {
+        background-color: #fff;
+        margin: 4em 2em;
+        padding: 1em;
+        border-radius: 10px;
+        box-shadow: 1px 1px 7px $LightGray;
+
+        p {
+            padding: 10px 0;
+            color: $VeryDarkBlue;
+            font-size: 11px;
+            line-height: 1.5;
+        }
+
+        .profile-detail {
+            padding: 10px 0;
+
+            .avatar {
+                width: 15%;
+                border-radius: 3em;
+                float: left;
+            }
+
+            .title {
+                position: relative;
+                left: 10px;
+
+                h4 {
+                    color: $VeryDarkBlue;
+                }
+
+                p {
+                    padding: 5px;
+                    color: $VeryDarkBlue;
+                }
+            }
+        }
+        .profile-detail::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+}
+#section2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media screen and (min-width: 768px) {
+    .mobile-curve {
+        display: none;
+    }
+    .desktop-curve {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        top: 40px;
+    }
+
+    #section2 {
+        margin: 2em 0;
+        padding: 1em;
+        background-color: $LightGrayishBlue;
+    
+        .illustration2 {
+            width: 50%;
+            float: right;
+            padding: 1em 2em;
+        }
+    
+        .section2_content {
+            text-align: start;
+            padding: 1em;
+    
+            h2 {
+                padding: 1em 0;
+                color: $VeryDarkBlue;
+            }
+    
+            p {
+                text-align: start;
+                color: $DesaturatedBlue;
+                padding-bottom: 20px;
+            }
+    
+            a {
+                padding: 10px 0;
+                text-decoration: none;
+                color: $ModerateCyan;
+                border-bottom: 1px solid $ModerateCyan;
+    
+                img {
+                    position: relative;
+                    top: 4px;
+                }
+            }
+        }
+    
+        .profile {
+            background-color: #fff;
+            margin: 4em 0;
+            padding: 1.5em;
+            border-radius: 10px;
+            box-shadow: 1px 1px 7px $LightGray;
+            width: 50vw;
+
+            .quotes {
+                width: 8%;
+            }
+    
+            p {
+                padding: 10px 0;
+                font-size: 14px;
+            }
+    
+            .profile-detail {
+                padding: 10px 0;
+    
+                .avatar {
+                    width: 15%;
+                    border-radius: 3em;
+                    float: left;
+                }
+    
+                .title {
+                    position: relative;
+                    top: 5px;
+                    left: 10px;
+    
+                    p {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+    #section2::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+}
+
+@media screen and (min-width: 1100px) {
+    .mobile-curve {
+        display: none;
+    }
+    .desktop-curve {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        top: 40px;
+    }
+
+    #section2 {
+        margin: 2em 0;
+        padding: 1em 4em;
+        background-color: $LightGrayishBlue;
+    
+        .illustration2 {
+            width: 50%;
+            float: right;
+            padding: 0;
+        }
+    
+        .section2_content {
+            text-align: start;
+            padding: 0;
+    
+            h2 {
+                padding: 1em 0;
+                color: $VeryDarkBlue;
+                font-size: 2em;
+            }
+    
+            p {
+                text-align: start;
+                color: $DesaturatedBlue;
+                padding-bottom: 20px;
+                font-size: 20px;
+            }
+    
+            a {
+                padding: 10px 0;
+                text-decoration: none;
+                color: $ModerateCyan;
+                border-bottom: 1px solid $ModerateCyan;
+    
+                img {
+                    position: relative;
+                    top: 4px;
+                }
+            }
+        }
+    
+        .profile {
+            background-color: #fff;
+            margin: 4em 0;
+            padding: 1.5em;
+            border-radius: 10px;
+            box-shadow: 1px 1px 7px $LightGray;
+            width: 30vw;
+
+            .quotes {
+                width: 8%;
+            }
+    
+            p {
+                padding: 10px 0;
+                font-size: 16px;
+            }
+    
+            .profile-detail {
+                padding: 10px 0;
+    
+                .avatar {
+                    width: 18%;
+                    border-radius: 3em;
+                    float: left;
+                }
+    
+                .title {
+                    position: relative;
+                    top: 7px;
+                    left: 10px;
+    
+                    p {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+    #section2::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+

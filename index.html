@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="SASS/fylo.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <script defer src="fylo.js"></script>
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+</head>
+<body>
+    <header>
+        <div class="nav-logo">
+            <img src="images/logo.svg" alt="">
+        </div>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <section id="section1">
+        <img src="images/illustration-1.svg" class="illustration1" alt="">
+
+        <div class="section1-content">
+            <h1>All your files in one secure location, accessible anywhere</h1>
+
+            <p>
+                Fylo stores your most important files in one secure location. 
+                Access them wherever you need, share and collaborate with friends, 
+                family, and co-workers.
+            </p>
+
+            <form id="form">
+                <input type="email" class="email" name="email" placeholder="Enter your email..." autocomplete="off" required>
+                <button class="btn btn-head" type="submit">Get Started</button>
+            </form>
+            
+        </div>
+        
+    </section>
+
+    <img src="images/bg-curve-mobile.svg" class="mobile-curve" alt="">
+    <img src="images/bg-curve-desktop.svg" alt="" class="desktop-curve">
+
+    <section id="section2">
+        
+        <img src="images/illustration-2.svg" alt="" class="illustration2">
+
+        <div class="section2_content">
+            <h2>Stay productive, wherever you are</h2>
+
+            <p>
+                Never let location be an issue when accessing your files. Fylo has you 
+                covered for all of your file storage needs.
+            </p>
+    
+            <p>
+                Securely share files and folders with friends, family and colleagues for 
+                live collaboration. No email attachments required!
+            </p>
+    
+            <a href="#">See how Fylo works <img src="images/icon-arrow.svg" alt=""></a>
+        </div>
+
+        <div class="profile">
+            <img src="images/icon-quotes.svg" class="quotes" alt="">
+
+            <p>
+                Fylo has improved our team productivity by an order of magnitude. Since 
+                making the switch our team has become a well-oiled collaboration machine.
+            </p>
+
+            <div class="profile-detail">
+                <img src="images/avatar-testimonial.jpg" alt="" class="avatar">
+
+                <div class="title">
+                    <h4>Kyle Burton</h4>
+                    <p>Founder & CEO, Huddle</p>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        
+    </section>
+
+    <section id="section3">
+        <div class="section3_content">
+            <h2>Get early access today</h2>
+
+            <p>
+                It only takes a minute to sign up and our free starter tier is extremely generous. 
+                If you have any questions, our support team would be happy to help you.
+            </p>
+        </div>
+        
+
+        <form id="form">
+            <input class="email" type="email" name="email" placeholder="email@example.com" autocomplete="off" required>
+            <button class="btn btn-foot" type="submit">Get Started</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="contact">
+            <img src="images/logo.svg" alt="" class="logo">
+
+            <p class="phone">Phone: +1-543-123-4567</p>
+            <p class="email">example@fylo.com</p>
+        </div>
+        
+        <nav class="nav-footer">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Press</a></li>
+                <li id="blog"><a href="#" >Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </nav>
+
+        <div class="socials">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </footer>
+</body>
+</html>

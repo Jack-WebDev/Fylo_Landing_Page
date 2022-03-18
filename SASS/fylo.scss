@@ -1,0 +1,23 @@
+
+@import "./header";
+@import "./section1";
+@import "./section2";
+@import "./section3";
+@import "./footer";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$VeryDarkBlue: hsl(243, 87%, 12%);
+$DesaturatedBlue: hsl(238, 22%, 44%);
+$BrightBlue: hsl(224, 93%, 58%);
+$ModerateCyan: hsl(170, 45%, 43%);
+$LightGrayishBlue: hsl(240, 75%, 98%);
+$LightGray: hsl(0, 0%, 75%);
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
