@@ -1,6 +1,6 @@
 # Frontend Mentor - Fylo landing page with two column layout
 
-![Design preview for the Advice generator app coding challenge](design/desktop-preview.jpg)
+![Design preview for the Advice generator app coding challenge](design/desktop-design.jpg)
 
 ## Welcome! 👋
 
