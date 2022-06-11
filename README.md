@@ -27,9 +27,9 @@ My users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Jack-WebDev/Fylo-Landing-Page.git]
+- Solution URL: [https://github.com/Jack-WebDev/Fylo_Landing_Page.git]
 
-- Live Site URL: [https://jack-webdev.github.io/Fylo-Landing-Page/]
+- Live Site URL: [https://jack-webdev.github.io/Fylo_Landing_Page/]
 
 ## My Process
 
